@@ -1,3 +1,60 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
+/* font-family: 'Miama', sans-serif; */
+/*   */
 /* shared styles */
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: 
+    rgb(0, 0, 0);
+    font-family: "Inter", sans-serif; 
+}
+.primary-color{
+    background-color:rgb(230, 83, 60); 
+  
+}
+.title{
+    font-weight: 900;
+    color: white;
+}
+.btn-primary{
+    padding: 16px 40px 16px 40px;
+    border-radius: 42px;
+    text-align: center;
+}
+.flex{
+    display: flex;
+}
+/* nav related style */
+.links{
+    gap:47px;
+    list-style-type: none;
+}
+.links  a{
+    text-decoration: none;
+    color: white;
+    font-weight: 400;
+    font-size: 1.12rem
+    
+    
+}
+.links .home{
+    font: size 1.12rem;
+    font-weight:600;
+    border-radius: 46px;
+    padding: 8px 20px;
+}
+.nav-container{
+    align-items: center;
+    justify-content: center;
+    gap: 463px;
+}
+.nav-title{
+    color:rgb(230, 83, 60);
+    font-weight: 800;
+    font-size:2.25rem;
+    font-style: italic;   
+}
